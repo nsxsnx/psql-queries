@@ -1,5 +1,5 @@
 # psql-queries
-postgresql locks, long running / hanging queries, etc.
+PostgreSQL locks, long running / hanging queries, etc.
 
 # HOW TO USE:
 execute queries.sql to create views, then:
@@ -10,3 +10,5 @@ select * from locks2;
 select * from long_queries;
 select * from long_queries2;
 ```
+
+Tested on PostgreSQL 15
